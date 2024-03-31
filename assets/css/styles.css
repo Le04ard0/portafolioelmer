@@ -9,8 +9,8 @@
  /*--bg-color: #83daf0;*/
 --background-blend-mode: multiply;
   --primary-color: #ffffff;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow:#a17a69;
+  --primary-shadow: #444b97;
+  --secondary-shadow:#080808;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -37,7 +37,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color:#10151b;
   text-decoration:bold;
 }
 
@@ -76,11 +76,12 @@ nav h1 {
 }
 
 nav a {
-color:rgb(255, 255, 255);
+color:rgb(12, 11, 11);
   transition: var(--transition);
 }
 nav a:hover {
-  color: var(--secondary-color);
+  color:aquamarine;
+  /*color: var(--secondary-color);*/
   border-bottom: 2px solid var(--secondary-color);
 }
 
@@ -249,6 +250,10 @@ nav ul li {
 
 
 
+
+
+
+
 /* Projects section ends */
 
 /* Contacts section */
@@ -307,7 +312,7 @@ nav ul li {
   padding: 10px;
   margin: 10px 0;
   background-color: aquamarine;
-  border: 2px solid var(--primary-color);
+  border: 2px solid black;
   border-radius: 5px;
   font-size: 1rem;
   font-weight: var(--bold-font);
@@ -315,7 +320,7 @@ nav ul li {
 }
 
 .submit-btn:hover {
-  background-color: var(--primary-color);
+  background-color:rgb(110, 248, 248);
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
@@ -384,7 +389,7 @@ footer {
   }
   nav ul {
     position: fixed;
-    background-color: var(--bg-color);
+    background-color:#f2f5f8;
     flex-direction: column;
     top: 86px;
     left: 10%;
@@ -474,3 +479,4 @@ footer {
     max-width: 17.75rem;
   }
 }
+
