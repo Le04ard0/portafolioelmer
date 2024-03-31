@@ -8,7 +8,7 @@
   --bolder-font: 500;
  /*--bg-color: #83daf0;*/
 --background-blend-mode: multiply;
-  --primary-color: #ffffff;
+  --primary-color: #070707;
   --primary-shadow: #444b97;
   --secondary-shadow:#080808;
   --bottom-margin: 0.5rem;
@@ -73,34 +73,40 @@ background-color:#333333;
 
 nav h1 {
   color:rgb(255, 255, 255);
+
 }
 
 nav a {
-color:rgb(255, 255, 255);
-  transition: var(--transition);
+color:rgb(248, 243, 243);
+
+ 
 }
 nav a:hover {
   color:aquamarine;
   /*color: var(--secondary-color);*/
   border-bottom: 2px solid var(--secondary-color);
+ 
 }
 
 nav ul {
   display: flex;
   gap: 1.9rem;
+
 }
 
 nav ul li {
   font-weight: var(--bold-font);
+
 }
 
 .burger-menu {
-  color: var(--primary-color);
+  color: aquamarine;
   font-size: 2rem;
   border: 0;
   background-color: transparent;
   cursor: pointer;
   display: none;
+
 }
 /* Navbar ends */
 
@@ -389,7 +395,7 @@ footer {
   }
   nav ul {
     position: fixed;
-    background-color:#f2f5f8;
+    background-color:#333333;
     flex-direction: column;
     top: 86px;
     left: 10%;
