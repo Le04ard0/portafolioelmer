@@ -9,8 +9,8 @@
  /*--bg-color: #83daf0;*/
 --background-blend-mode: multiply;
   --primary-color: #ffffff;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow:#a17a69;
+  --primary-shadow: #444b97;
+  --secondary-shadow:#080808;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -389,7 +389,7 @@ footer {
   }
   nav ul {
     position: fixed;
-    background-color:#10151b;
+    background-color:#f2f5f8;
     flex-direction: column;
     top: 86px;
     left: 10%;
@@ -480,8 +480,3 @@ footer {
   }
 }
 
-.correo,p{
-  color: antiquewhite;
-  text-align:center;
-
-}
